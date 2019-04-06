@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <title>filter JS</title>
+</head>
+<body>
+        <nav class="navbar navbar-light fixed-top" style="background-color: #0056948e;">
+                <a class="navbar-brand" href="#"><b style="color:midnightblue">Filter-</b>Assignment</a>
+        </nav>
+        <br><br><br>
+    <div class="container">
+            <input class="input form-control mr-sm-2" type="search" name="" id="input" onkeyup="input()" placeholder="Search By: Only Name">
+        <br>
+        <br>
+        <table id="filterTable" class="table table-striped table-bordered table-hover">
+            <thead class="thead-dark">
+               <tr>
+                <th id="">NAME</th>
+                <th id="">BRAND</th>
+                <th id="">SUB-BRAND</th>
+                <th id="">MODEL</th>
+                <th id="">PRICE</th>
+            </tr> 
+            </thead>
+            <tr>
+                <td id="name"></td>
+                <td id="pcBrand"></td>
+                <td id="pcsub"></td>
+                <td id="pcmodel"></td>
+                <td id="pcprice"></td>
+            </tr>
+            <tr>
+                <td id="aname"></td>
+                <td id="ltBrand"></td>
+                <td id="ltsub"></td>
+                <td id="ltmodel"></td>
+                <td id="ltprice"></td>
+            </tr>
+            <tr>
+                <td id="bname"></td>
+                <td id="laptopBrand"></td>
+                <td id="laptopsub"></td>
+                <td id="laptopmodel"></td>
+                <td id="laptopprice"></td>
+            </tr>
+            <tr>
+                <td id="vname" ></td>
+                <td id="comBrand" ></td>
+                <td id="comsub" ></td>
+                <td id="commodel" ></td>
+                <td id="comprice"></td>
+            </tr>
+        </table>
+    </div>
+
+   
+
+    <script src="./js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+</body>
+</html>
